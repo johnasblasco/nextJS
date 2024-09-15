@@ -1,7 +1,7 @@
 
 const productDetails = ({ params }: { params: { productId: string } }) => {
       return (
-            <div>{params.productId}</div>
+            <div className="bg-red-400">{params.productId}</div>
       )
 }
 
