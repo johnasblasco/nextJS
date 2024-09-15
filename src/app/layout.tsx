@@ -12,7 +12,18 @@ export default function RootLayout({
 }) {
       return (
             <html lang="en">
-                  <body>{children}</body>
+
+                  <body>
+                        <header className='flex justify-center items-center h-10 bg-blue-500'>
+                              <h1>Eyow</h1>
+                        </header>
+
+
+                        {children}
+
+                        <footer className='flex justify-center items-center h-10 bg-blue-500'> eabab </footer>
+
+                  </body>
             </html>
       )
 }
